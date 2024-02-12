@@ -33,10 +33,20 @@ public class MainArray {
             for(int i = 0; i<arr.length; i++){
                 System.out.print(arr[i] + " ");
             }
+            System.out.println();
         } catch (Exception e) {
             System.out.println("Array Don't Exist..");
         }
         
+    }
+    public void search(int searchValue){
+        for(int i = 0 ; i<arr.length; i++){
+            if(arr[i] == searchValue){
+                System.out.println("Value found at index: "+ i);
+                return;
+            }
+        }
+        System.out.println("Value Not Found..");
     }
     public static void main(String[] args) {
         MainArray mArray = new MainArray(10);
@@ -50,6 +60,8 @@ public class MainArray {
         // mArray.access(1);
 
         mArray.traversArray();
+        mArray.search(15);
+
 
 
 
