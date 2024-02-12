@@ -28,6 +28,16 @@ public class MainArray {
             System.out.println("Error Message: "+e);
         }
     }
+    public void traversArray(){
+        try {
+            for(int i = 0; i<arr.length; i++){
+                System.out.print(arr[i] + " ");
+            }
+        } catch (Exception e) {
+            System.out.println("Array Don't Exist..");
+        }
+        
+    }
     public static void main(String[] args) {
         MainArray mArray = new MainArray(10);
         mArray.insert(0, 12);
@@ -36,8 +46,10 @@ public class MainArray {
         mArray.insert(0, 13);
         mArray.insert(11, 12);
 
-        mArray.access(12);
-        mArray.access(1);
+        // mArray.access(12);
+        // mArray.access(1);
+
+        mArray.traversArray();
 
 
 
