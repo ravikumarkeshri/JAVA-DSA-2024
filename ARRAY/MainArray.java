@@ -21,6 +21,13 @@ public class MainArray {
         }
         
     }
+    public void access( int location){
+        try {
+            System.out.println("Element :"+arr[location]);
+        } catch (Exception e) {
+            System.out.println("Error Message: "+e);
+        }
+    }
     public static void main(String[] args) {
         MainArray mArray = new MainArray(10);
         mArray.insert(0, 12);
@@ -28,6 +35,9 @@ public class MainArray {
         mArray.insert(3, 15);
         mArray.insert(0, 13);
         mArray.insert(11, 12);
+
+        mArray.access(12);
+        mArray.access(1);
 
 
 
