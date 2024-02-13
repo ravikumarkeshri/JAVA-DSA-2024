@@ -45,6 +45,18 @@ public class TwoDimensionalArray {
             System.out.println();
         }
     }
+    public void search(int value){
+        for (int r = 0; r < arr.length; r++) {
+            for (int c = 0; c < arr[0].length; c++) {
+                if(arr[r][c]== value){
+                    System.out.println("found at row: "+r +" col: "+c);
+                    return;
+                }
+            }
+           
+        }
+        System.out.println("Value Not found..");
+    }
 
     public static void main(String[] args) {
         TwoDimensionalArray tArray = new TwoDimensionalArray(2, 2);
@@ -52,6 +64,8 @@ public class TwoDimensionalArray {
         tArray.insert(1, 0, 10);
         // tArray.accessCell(1, 0);
         tArray.traverseArray();
+
+        tArray.search(10);
         // System.out.println(Arrays.deepToString(tArray.arr));
 
         // codes written below are just for illustration..
