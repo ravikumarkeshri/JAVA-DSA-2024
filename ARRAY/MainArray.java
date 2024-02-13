@@ -2,52 +2,68 @@ import java.util.Arrays;
 
 public class MainArray {
     int arr[] = null;
-    public MainArray(int sizeOfArray){
+
+    public MainArray(int sizeOfArray) {
         arr = new int[sizeOfArray];
-        for(int i = 0; i<arr.length ; i++){
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.MIN_VALUE;
         }
     }
-    public void insert(int location, int valueToBeInserted){
+
+    public void insert(int location, int valueToBeInserted) {
         try {
-            if(arr[location] == Integer.MIN_VALUE){
+            if (arr[location] == Integer.MIN_VALUE) {
                 arr[location] = valueToBeInserted;
                 System.out.println("Successfully Inserted.");
-            }else{
+            } else {
                 System.out.println("Already Located");
             }
         } catch (ArrayIndexOutOfBoundsException e) {
-           System.out.println("Invalid index to access array, errro message: "+e);
+            System.out.println("Invalid index to access array, errro message: " + e);
         }
-        
+
     }
-    public void access( int location){
+
+    public void access(int location) {
         try {
-            System.out.println("Element :"+arr[location]);
+            System.out.println("Element :" + arr[location]);
         } catch (Exception e) {
-            System.out.println("Error Message: "+e);
+            System.out.println("Error Message: " + e);
         }
     }
-    public void traversArray(){
+
+    public void traversArray() {
         try {
-            for(int i = 0; i<arr.length; i++){
+            for (int i = 0; i < arr.length; i++) {
                 System.out.print(arr[i] + " ");
             }
             System.out.println();
         } catch (Exception e) {
             System.out.println("Array Don't Exist..");
         }
-        
+
     }
-    public void search(int searchValue){
-        for(int i = 0 ; i<arr.length; i++){
-            if(arr[i] == searchValue){
-                System.out.println("Value found at index: "+ i);
+
+    public void search(int searchValue) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == searchValue) {
+                System.out.println("Value found at index: " + i);
                 return;
             }
         }
         System.out.println("Value Not Found..");
     }
+
+    public void deleteElement(int deleteIndex) {
+        try {
+            arr[deleteIndex] = Integer.MIN_VALUE;
+            System.out.println("Value Deleted Successfully..");
+        } catch (Exception e) {
+            System.out.println("Value is not in the range...Errro Message: " + e);
+        }
+
+    }
+
     public static void main(String[] args) {
         MainArray mArray = new MainArray(10);
         mArray.insert(0, 12);
@@ -62,15 +78,7 @@ public class MainArray {
         mArray.traversArray();
         mArray.search(15);
 
-
-
-
-
-
-
-
-
-        //  codes written below are just for illustration..
+        // codes written below are just for illustration..
         {
             // --> creating an array..
             // int intArray[] = new intArray[3];
