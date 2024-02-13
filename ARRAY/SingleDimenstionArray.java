@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
-public class MainArray {
+public class SingleDimenstionArray {
     int arr[] = null;
 
-    public MainArray(int sizeOfArray) {
+    public SingleDimenstionArray(int sizeOfArray) {
         arr = new int[sizeOfArray];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.MIN_VALUE;
@@ -65,7 +65,7 @@ public class MainArray {
     }
 
     public static void main(String[] args) {
-        MainArray mArray = new MainArray(10);
+        SingleDimenstionArray mArray = new SingleDimenstionArray(10);
         mArray.insert(0, 12);
         mArray.insert(1, 14);
         mArray.insert(3, 15);
