@@ -57,6 +57,14 @@ public class TwoDimensionalArray {
         }
         System.out.println("Value Not found..");
     }
+    public void delelte(int row, int col){
+        try {
+           arr[row][col] = Integer.MIN_VALUE;
+           System.out.println("Value deleted successfully..");
+        } catch (Exception e) {
+            System.out.println("Your Input is out of range...\nError Message :" + e);
+        }
+    }
 
     public static void main(String[] args) {
         TwoDimensionalArray tArray = new TwoDimensionalArray(2, 2);
