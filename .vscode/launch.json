@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BestTwoScores",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.BestTwoScores",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "SumOfDiagonal",
             "request": "launch",
             "mainClass": "LeetCodeProblems.SumOfDiagonal",
