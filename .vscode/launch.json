@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MiddleElements",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.MiddleElements",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "ArrayListClass",
             "request": "launch",
             "mainClass": "ArrayList.ArrayListClass",
