@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxProduct",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.MaxProduct",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.TwoSum",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "BuySellStocks",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.BuySellStocks",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAllDuplicates",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.RemoveAllDuplicates",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.RemoveDuplicate",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.MissingNumber",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "BestTwoScores",
             "request": "launch",
             "mainClass": "LeetCodeProblems.BestTwoScores",
