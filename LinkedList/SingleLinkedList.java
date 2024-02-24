@@ -84,7 +84,7 @@ public class SingleLinkedList {
         sLL.insertInLinkedList(6, 1);
         sLL.insertInLinkedList(7, 2);
         sLL.insertInLinkedList(8, 3);
-        sLL.insertInLinkedList(9, );
+        sLL.insertInLinkedList(9, 4);
         // System.out.println(sLL.tail.value);
         sLL.traverseLinkedList();
         System.out.println(sLL.searchNode(8));
