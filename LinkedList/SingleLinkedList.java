@@ -76,6 +76,43 @@ public class SingleLinkedList {
         System.out.println("Not found");
         return false;
     }
+    public void deleteNode(int location){
+        if(head == null){
+            System.out.println("List does not exist...");
+            return ;
+        }else if(location == 0){
+             head = head.next;
+             size--;
+             if(size == 0){
+                tail = null;
+             }
+        }else if(location>= size){
+            Node temp = head;
+            for(int i = 0; i<size-1 ;i++){
+                temp = temp.next;
+            }
+            if(temp == head){
+                tail = head = null;
+                size--;
+                return;
+            }
+            temp.next = null;
+            tail = temp;
+            size--;
+        }else{
+            Node temp = head;
+            for(int i =0; i<location-1;i++){
+                temp = temp.next;
+            }
+            temp.next = temp.next.next;
+            size--;
+        }
+    }
+    public void deleteSingleLinkedList(){
+        head = null;
+        tail = null;
+        System.out.println("Single Linked List Deleted");
+    }
 
     public static void main(String[] args) {
         SingleLinkedList sLL = new SingleLinkedList();
@@ -88,5 +125,8 @@ public class SingleLinkedList {
         // System.out.println(sLL.tail.value);
         sLL.traverseLinkedList();
         System.out.println(sLL.searchNode(8));
+        // sLL.deleteNode(10);
+        // sLL.deleteSingleLinkedList();
+        // sLL.traverseLinkedList();
     }
 }
