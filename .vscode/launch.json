@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListClass",
+            "request": "launch",
+            "mainClass": "ArrayList.ArrayListClass",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "BestTwoScores",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.BestTwoScores",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "BuySellStocks",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.BuySellStocks",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "MaxProduct",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.MaxProduct",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "MiddleElements",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.MiddleElements",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.MissingNumber",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAllDuplicates",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.RemoveAllDuplicates",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.RemoveDuplicate",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDiagonal",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.SumOfDiagonal",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.TwoSum",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "CircularSinglyLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.CircularSinglyLinkedList",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "SingleLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.SingleLinkedList",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "Problem2",
+            "request": "launch",
+            "mainClass": "NormalQuestion.Problem2",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "problem1",
+            "request": "launch",
+            "mainClass": "NormalQuestion.problem1",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "SingleDimenstionArray",
+            "request": "launch",
+            "mainClass": "SingleDimenstionArray",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "TwoDimensionalArray",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        }
+    ]
+}

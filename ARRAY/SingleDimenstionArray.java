@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class SingleDimenstionArray {
     int arr[] = null;
@@ -89,7 +89,7 @@ public class SingleDimenstionArray {
             intArray[2] = 6;
             // System.out.println(Arrays.toString(intArray));
 
-            String stringArray[] = { "Ravi", "Amit", "Aryan" };
+            // String stringArray[] = { "Ravi", "Amit", "Aryan" };
             // System.out.println(Arrays.toString(stringArray));
         }
 

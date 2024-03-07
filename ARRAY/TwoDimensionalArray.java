@@ -96,7 +96,7 @@ public class TwoDimensionalArray {
             // System.out.println(Arrays.deepToString(int2DArray));
 
             // another method to create a 2D Array...
-            String[][] string2DArray = { { "a", "b" }, { "c", "d" } };
+            // String[][] string2DArray = { { "a", "b" }, { "c", "d" } };
             // System.out.println(Arrays.deepToString(string2DArray));
         }
 

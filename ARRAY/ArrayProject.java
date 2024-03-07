@@ -11,6 +11,7 @@ class Main {
       System.out.print("Day " + (i+1) + "'s high temp: ");
       temps[i] = console.nextInt();
       sum += temps[i];
+      console.close();
     }
 
     double average = sum / numDays;

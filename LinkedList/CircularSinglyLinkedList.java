@@ -94,7 +94,7 @@ public class CircularSinglyLinkedList {
         }
         head = null;
         tail.next= null;
-        tail = null;
+        tail = null; 
         size = 0;
         System.out.println("List Deleted");
     }
@@ -152,3 +152,4 @@ public class CircularSinglyLinkedList {
 
     }
 }
+
