@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveValue",
+            "request": "launch",
+            "mainClass": "LinkedList.SLL_LeetcodePorblems.RemoveValue",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "SetValue",
+            "request": "launch",
+            "mainClass": "LinkedList.SLL_LeetcodePorblems.SetValue",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "Rotate",
+            "request": "launch",
+            "mainClass": "LinkedList.SLL_LeetcodePorblems.Rotate",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "AddAtIndex",
+            "request": "launch",
+            "mainClass": "LinkedList.SLL_LeetcodePorblems.AddAtIndex",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "PopElement",
+            "request": "launch",
+            "mainClass": "LinkedList.SLL_LeetcodePorblems.PopElement",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "PushElement",
+            "request": "launch",
+            "mainClass": "LinkedList.SLL_LeetcodePorblems.PushElement",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

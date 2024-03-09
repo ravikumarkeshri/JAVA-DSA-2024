@@ -84,7 +84,7 @@ public class SingleLinkedList {
              head = head.next;
              size--;
              if(size == 0){
-                tail = null;
+               head = tail = null;
              }
         }else if(location>= size){
             Node temp = head;
