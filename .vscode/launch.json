@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoubleLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.DoubleLinkedList",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "CreateCSLL",
+            "request": "launch",
+            "mainClass": "LinkedList.Circular_SLL_LeetcodePorblems.CreateCSLL",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "RemoveValue",
             "request": "launch",
             "mainClass": "LinkedList.SLL_LeetcodePorblems.RemoveValue",
