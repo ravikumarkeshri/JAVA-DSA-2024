@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CircularDoubleLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.CircularDoubleLinkedList",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "Problem3",
+            "request": "launch",
+            "mainClass": "NormalQuestion.Problem3",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "DoubleLinkedList",
             "request": "launch",
             "mainClass": "LinkedList.DoubleLinkedList",
