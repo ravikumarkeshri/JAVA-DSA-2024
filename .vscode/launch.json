@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayStack",
+            "request": "launch",
+            "mainClass": "Stack.ArrayStack",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
+            "name": "StackClass",
+            "request": "launch",
+            "mainClass": "Stack.StackClass",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "CircularDoubleLinkedList",
             "request": "launch",
             "mainClass": "LinkedList.CircularDoubleLinkedList",
