@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedListStack",
+            "request": "launch",
+            "mainClass": "Stack.LinkedListStack",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "ArrayStack",
             "request": "launch",
             "mainClass": "Stack.ArrayStack",
