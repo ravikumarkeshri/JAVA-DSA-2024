@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayCircularQueue",
+            "request": "launch",
+            "mainClass": "ArrayCircularQueue",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "ArrayQueue",
             "request": "launch",
             "mainClass": "ArrayQueue",
