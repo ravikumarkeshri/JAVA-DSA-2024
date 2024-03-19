@@ -49,12 +49,20 @@ public class ArrayQueue {
             return removed;
         }
     }
+    public int peek(){
+        if(!isEmpty()){
+            return arr[start];
+        }else{
+            System.out.println("Queue is Empty...");
+            return  -1;
+        }
+    }
 
     public void printQueue() {
-        for (int i = 0; i <= end; i++) {
+        for (int i = start; i <= end; i++) {
             System.out.print(arr[i]);
             if (i != end) {
-                System.out.print(" -> ");
+                System.out.print(" <- ");
             }
         }
         System.out.println();
@@ -64,13 +72,14 @@ public class ArrayQueue {
         ArrayQueue q = new ArrayQueue(5);
         q.enQueue(5);
         q.enQueue(4);
-        q.enQueue(5);
-        q.enQueue(4);
-        q.enQueue(5);
-        q.enQueue(4);
+        q.enQueue(3);
+        q.enQueue(9);
+        q.enQueue(2);
+        q.enQueue(7);
         q.printQueue();
         System.out.println("Removed Value: " + q.deQueue());
         q.printQueue();
+        System.out.println("peek: "+q.peek());
         System.out.println("Front: " + q.start);
         System.out.println("End: " + q.end);
     }
