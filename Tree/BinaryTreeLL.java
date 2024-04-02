@@ -8,7 +8,7 @@ public class BinaryTreeLL {
         public String value;
         public BinaryNode left;
         public BinaryNode right;
-        public int height;
+        public int height;  
     }
 
     BinaryTreeLL() {

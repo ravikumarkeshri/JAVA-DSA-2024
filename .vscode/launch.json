@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryTreeArray",
+            "request": "launch",
+            "mainClass": "BinaryTreeArray",
+            "projectName": "JAVA DSA 2024_744f7c0f"
+        },
+        {
+            "type": "java",
             "name": "BinaryTreeLL",
             "request": "launch",
             "mainClass": "BinaryTreeLL",
